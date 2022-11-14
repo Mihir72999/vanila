@@ -44,7 +44,7 @@ function gameStart(){
         drawSnake()
        checkGameOver()
        resetTick()      
-      },75)
+      },120)
     }
     else{
     displayGameOver()      
