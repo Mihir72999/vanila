@@ -1,0 +1,43 @@
+body{
+    background-color: hsl(1000,90%,90%);
+    
+}
+#text{
+    text-align:center;
+}
+
+    #card{
+        display:flex;    
+        height:30vh;
+    width:30vw;
+    border:1px solid;
+    margin:auto;
+   background-color:rgb(5, 130, 88);
+   color:white;
+ gap: .5rem;  
+}
+#namm,#address,#hobby{
+    display: flex;
+    flex-direction: column;
+   
+}
+#btn{
+    text-align:center;
+   width:30vw;
+   margin: auto;
+   
+}
+#input,#input1,#input2{
+    height:auto;
+    width:29.5vw;
+    margin:auto;
+}
+.all{
+   display: flex;
+   flex-direction: column;
+}
+.button{
+    display:flex;
+    flex-direction: column;
+
+}
